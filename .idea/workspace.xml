@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8452d177-1824-4b2f-80c3-6567620cd2c2" name="Changes" comment="의뢰1,2 병합">
+    <list default="true" id="8452d177-1824-4b2f-80c3-6567620cd2c2" name="Changes" comment="버튼 달기 중">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/432.html" beforeDir="false" afterPath="$PROJECT_DIR$/432.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/421.html" beforeDir="false" afterPath="$PROJECT_DIR$/421.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/423.html" beforeDir="false" afterPath="$PROJECT_DIR$/423.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/433.html" beforeDir="false" afterPath="$PROJECT_DIR$/433.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/434.html" beforeDir="false" afterPath="$PROJECT_DIR$/434.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/435.html" beforeDir="false" afterPath="$PROJECT_DIR$/435.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/436.html" beforeDir="false" afterPath="$PROJECT_DIR$/436.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/437.html" beforeDir="false" afterPath="$PROJECT_DIR$/437.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/438.html" beforeDir="false" afterPath="$PROJECT_DIR$/438.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/439.html" beforeDir="false" afterPath="$PROJECT_DIR$/439.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +68,7 @@
       <workItem from="1663286547216" duration="5895000" />
       <workItem from="1663314546337" duration="1438000" />
       <workItem from="1663316010129" duration="1878000" />
-      <workItem from="1663563747699" duration="4967000" />
+      <workItem from="1663563747699" duration="9028000" />
     </task>
     <task id="LOCAL-00001" summary="p417_1.mp3 파일 추가">
       <created>1663317482958</created>
@@ -78,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663563784185</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="버튼 달기 중">
+      <created>1663571756090</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663571756090</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="p417_1.mp3 파일 추가" />
     <MESSAGE value="의뢰1,2 병합" />
-    <option name="LAST_COMMIT_MESSAGE" value="의뢰1,2 병합" />
+    <MESSAGE value="버튼 달기 중" />
+    <option name="LAST_COMMIT_MESSAGE" value="버튼 달기 중" />
   </component>
 </project>
