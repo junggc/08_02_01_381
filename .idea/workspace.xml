@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8452d177-1824-4b2f-80c3-6567620cd2c2" name="Changes" comment="버튼 달기 작업중3">
+    <list default="true" id="8452d177-1824-4b2f-80c3-6567620cd2c2" name="Changes" comment="445 할차례">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/407.html" beforeDir="false" afterPath="$PROJECT_DIR$/407.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/442.html" beforeDir="false" afterPath="$PROJECT_DIR$/442.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/444.html" beforeDir="false" afterPath="$PROJECT_DIR$/444.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/417.html" beforeDir="false" afterPath="$PROJECT_DIR$/417.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/445.html" beforeDir="false" afterPath="$PROJECT_DIR$/445.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/446.html" beforeDir="false" afterPath="$PROJECT_DIR$/446.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/447.html" beforeDir="false" afterPath="$PROJECT_DIR$/447.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/448.html" beforeDir="false" afterPath="$PROJECT_DIR$/448.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/449.html" beforeDir="false" afterPath="$PROJECT_DIR$/449.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/450.html" beforeDir="false" afterPath="$PROJECT_DIR$/450.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/451.html" beforeDir="false" afterPath="$PROJECT_DIR$/451.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/452.html" beforeDir="false" afterPath="$PROJECT_DIR$/452.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/453.html" beforeDir="false" afterPath="$PROJECT_DIR$/453.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/454.html" beforeDir="false" afterPath="$PROJECT_DIR$/454.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/455.html" beforeDir="false" afterPath="$PROJECT_DIR$/455.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/456.html" beforeDir="false" afterPath="$PROJECT_DIR$/456.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +72,7 @@
       <workItem from="1663286547216" duration="5895000" />
       <workItem from="1663314546337" duration="1438000" />
       <workItem from="1663316010129" duration="1878000" />
-      <workItem from="1663563747699" duration="19211000" />
+      <workItem from="1663563747699" duration="34143000" />
     </task>
     <task id="LOCAL-00001" summary="p417_1.mp3 파일 추가">
       <created>1663317482958</created>
@@ -100,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663590041500</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="445 할차례">
+      <created>1663591559211</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663591559211</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +139,8 @@
     <MESSAGE value="버튼 달기 중" />
     <MESSAGE value="버튼 달기 작업중" />
     <MESSAGE value="버튼 달기 작업중3" />
-    <option name="LAST_COMMIT_MESSAGE" value="버튼 달기 작업중3" />
+    <MESSAGE value="버튼 달기 작업중4" />
+    <MESSAGE value="445 할차례" />
+    <option name="LAST_COMMIT_MESSAGE" value="445 할차례" />
   </component>
 </project>

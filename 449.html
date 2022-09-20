@@ -1,0 +1,66 @@
+<!-- book txt -->
+<p class="s_reader-num" title="사백 사십 구">449</p>
+<p class="s_reader-txt book-top-sub-txt-6">실력 뽐내기</p>
+<p class="s_reader-txt book-top-main-txt-6" title="일 단계 학습평가">1단계 학습평가</p>
+
+<p class="s_reader-txt book-txt" style="top:193px;">지도를 찾아봅시다.</p>
+<button data-btn="page-btn" class="click-ans-btn" title="선택하기 활동 버튼입니다. 상기가 ‘우리나라 지도는 오른쪽 지도와 같은 모양이야.’라며 이야기하고 있어요. 우리나라 지도 모양을 확인하고 지도를 찾아 선택해 보세요. 버튼을 눌러 활동을 시작하세요." data-popup-target="popup_1" style="left:342px; top:180px;"></button>
+<button data-btn="page-btn" class="essence-btn" data-essence="popup_1" style="left:10px; top:195px;"></button>
+
+<p class="s_reader-txt book-txt" style="top:666px;">지도를 보고 목적지에 찾아가 봅시다.</p>
+<button data-btn="page-btn" class="click-change-btn" title="클릭하기 활동 버튼입니다. 동네 지도가 있어요. 각 목적지를 클릭하여 목적지로 가는 길을 확인해 보세요. 버튼을 눌러 활동을 시작하세요." data-popup-target="popup_2" style="left:559px; top:657px;"></button>
+<button data-btn="page-btn" class="essence-btn" data-essence="popup_2" style="left:10px; top:669px;"></button>
+
+<!-- book popup -->
+<div class="popup_view" title="팝업 영역" data-popup-name="popup_1">
+    <div class="popup_box" data-type="button-click" data-option="ans-multiple">
+        <div class="popup_header">
+            <div class="popup_title">지도를 찾아봅시다.</div>
+            <button class="popup_close_btn"></button>
+        </div>
+
+        <div class="popup_content">
+            <img src="./08_01_01/31/click_bg.png"/>
+
+            <div class="click-active-obj-box absolute">
+                <button data-btn="event-btn" style="left: 164px; top: 244px; width:114px; height:108px;" class="click-obj click-active-obj chk-box" data-ans="yes" title="깨끗하게 정리된 책상 사진의 선택창"></button>
+                <button data-btn="event-btn" style="left: 589px; top: 244px; width:114px; height:108px;" class="click-obj click-active-obj chk-box" data-ans="not" title="정리되지 않은 책상 사진의 선택창"></button>
+                <button data-btn="event-btn" style="left: 164px; top: 607px; width:114px; height:108px;" class="click-obj click-active-obj chk-box" data-ans="yes" title="깨끗하게 정리된 옷장 사진의 선택창"></button>
+                <button data-btn="event-btn" style="left: 589px; top: 607px; width:114px; height:108px;" class="click-obj click-active-obj chk-box" data-ans="not" title="정리되지 않은 침대 사진의 선택창"></button>
+            </div>
+
+            <div class="btn-box" style="margin:0;">
+                <button data-btn="event-btn" class="ans-check-btn" title="정답확인" data-target="pop1-31-target1"></button>
+            </div>
+
+            <div class="acc-box-hide" id="pop1-31-target1" tabindex="12" style="left: 97px; top: 17px; width: 675px; height: 580px;" title="정답 설명입니다. 깨끗하게 정리된 곳은 깨끗하게 정리된 책상과 깨끗하게 정리된 옷장이 있습니다."></div>
+        </div>
+    </div>
+</div>
+
+
+<div class="popup_view" title="팝업 영역" data-popup-name="popup_2">
+    <div class="popup_box" data-type="write" data-option="input">
+        <div class="popup_header">
+            <div class="popup_title">지도를 보고 목적지에 찾아가 봅시다.</div>
+            <button class="popup_close_btn"></button>
+        </div>
+        <div class="popup_content">
+            <img src="./08_01_01/31/write_bg.png" tabindex="6" alt="손을 깨끗하게 씻는 모습"/>
+
+            <div class="acc-box" style="left:30px; top:516px; width:805px; height: 130px;" tabindex="11" title="빈칸을 깨끗하게 씻으면 많은 질병을 예방할 수 있습니다."></div>
+
+            <div class="input-area-box">
+                <label for="p31-1-area">빈 칸에 들어갈 말을 키보드로 써 보세요.</label>
+                <input id="p31-1-area" class="input-area center" title="빈 칸에 들어갈 말을 키보드로 써 보세요." data-ans="손" style="left:62px; top:557px; width:75px;"></input>
+            </div>
+
+            <div id="pop2-31-target1" class="acc-box-hide" style="left:62px; top:557px; width:75px; height: 50px;" tabindex="20" title="손을 깨끗하게 씻으면 많은 질병을 예방할 수 있습니다."></div>
+
+            <div class="btn-box">
+                <button data-btn="event-btn" class="ans-check-btn" title="정답확인"></button>
+                <button data-btn="event-btn" class="ans-preveal-btn" title="정답미리보기" data-target="pop2-31-target1"></button>
+            </div>
+        </div>
+    </div>
+</div>
