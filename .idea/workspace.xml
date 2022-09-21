@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8452d177-1824-4b2f-80c3-6567620cd2c2" name="Changes" comment="버튼달기 완료" />
+    <list default="true" id="8452d177-1824-4b2f-80c3-6567620cd2c2" name="Changes" comment="재 수정">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/422.html" beforeDir="false" afterPath="$PROJECT_DIR$/422.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663591559211</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="재 수정">
+      <created>1663723035703</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663723035703</updated>
+    </task>
+    <task id="LOCAL-00008" summary="재 수정">
+      <created>1663723050210</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663723050210</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +143,7 @@
     <MESSAGE value="버튼 달기 작업중3" />
     <MESSAGE value="버튼 달기 작업중4" />
     <MESSAGE value="445 할차례" />
-    <option name="LAST_COMMIT_MESSAGE" value="445 할차례" />
+    <MESSAGE value="재 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="재 수정" />
   </component>
 </project>
