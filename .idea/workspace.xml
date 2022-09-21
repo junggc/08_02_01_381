@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8452d177-1824-4b2f-80c3-6567620cd2c2" name="Changes" comment="445 할차례">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/417.html" beforeDir="false" afterPath="$PROJECT_DIR$/417.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/445.html" beforeDir="false" afterPath="$PROJECT_DIR$/445.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/446.html" beforeDir="false" afterPath="$PROJECT_DIR$/446.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/447.html" beforeDir="false" afterPath="$PROJECT_DIR$/447.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/448.html" beforeDir="false" afterPath="$PROJECT_DIR$/448.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/449.html" beforeDir="false" afterPath="$PROJECT_DIR$/449.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/450.html" beforeDir="false" afterPath="$PROJECT_DIR$/450.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/451.html" beforeDir="false" afterPath="$PROJECT_DIR$/451.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/452.html" beforeDir="false" afterPath="$PROJECT_DIR$/452.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/453.html" beforeDir="false" afterPath="$PROJECT_DIR$/453.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/454.html" beforeDir="false" afterPath="$PROJECT_DIR$/454.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/455.html" beforeDir="false" afterPath="$PROJECT_DIR$/455.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/456.html" beforeDir="false" afterPath="$PROJECT_DIR$/456.html" afterDir="false" />
-    </list>
+    <list default="true" id="8452d177-1824-4b2f-80c3-6567620cd2c2" name="Changes" comment="버튼달기 완료" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,19 +25,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/workspace/PSI_dev",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/workspace/PSI_dev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
