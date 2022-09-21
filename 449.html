@@ -13,54 +13,43 @@
 
 <!-- book popup -->
 <div class="popup_view" title="팝업 영역" data-popup-name="popup_1">
-    <div class="popup_box" data-type="button-click" data-option="ans-multiple">
-        <div class="popup_header">
-            <div class="popup_title">지도를 찾아봅시다.</div>
-            <button class="popup_close_btn"></button>
-        </div>
+    <div class="popup_box" data-type="button-click" data-option="ans">
+		<div class="popup_header">
+			<div class="popup_title">지도를 찾아봅시다.</div>
+			<button class="popup_close_btn"></button>
+		</div>
 
-        <div class="popup_content">
-            <img src="./08_01_01/31/click_bg.png"/>
+		<div class="popup_content">
+			<img src="./08_02_01/449/click_bg1.png" tabindex="6" alt="상기 : 우리나라 지도는 오른쪽 지도와 같은 모양이야. 오른쪽 지도는 우리나라의 땅을 평면에 나타낸 그림입니다."/>
 
-            <div class="click-active-obj-box absolute">
-                <button data-btn="event-btn" style="left: 164px; top: 244px; width:114px; height:108px;" class="click-obj click-active-obj chk-box" data-ans="yes" title="깨끗하게 정리된 책상 사진의 선택창"></button>
-                <button data-btn="event-btn" style="left: 589px; top: 244px; width:114px; height:108px;" class="click-obj click-active-obj chk-box" data-ans="not" title="정리되지 않은 책상 사진의 선택창"></button>
-                <button data-btn="event-btn" style="left: 164px; top: 607px; width:114px; height:108px;" class="click-obj click-active-obj chk-box" data-ans="yes" title="깨끗하게 정리된 옷장 사진의 선택창"></button>
-                <button data-btn="event-btn" style="left: 589px; top: 607px; width:114px; height:108px;" class="click-obj click-active-obj chk-box" data-ans="not" title="정리되지 않은 침대 사진의 선택창"></button>
-            </div>
+			<div class="click-active-obj-box absolute" data-ans="a">
+				<button data-btn="event-btn" style="left: 192px; top: 722px; width:114px; height:108px;" class="click-obj click-active-obj chk-box2" title="우리나라 땅의 모양이 그려진 그림 선택장" data-ans="a" data-target="pop1-449-target1-1"></button>
+				<button data-btn="event-btn" style="left: 577px; top: 722px; width:114px; height:108px;" class="click-obj click-active-obj chk-box2" title="행사 안내 포스터 선택창" data-ans="b" ></button>
+			</div>
 
-            <div class="btn-box" style="margin:0;">
-                <button data-btn="event-btn" class="ans-check-btn" title="정답확인" data-target="pop1-31-target1"></button>
-            </div>
-
-            <div class="acc-box-hide" id="pop1-31-target1" tabindex="12" style="left: 97px; top: 17px; width: 675px; height: 580px;" title="정답 설명입니다. 깨끗하게 정리된 곳은 깨끗하게 정리된 책상과 깨끗하게 정리된 옷장이 있습니다."></div>
-        </div>
-    </div>
+			<div class="acc-box-hide" id="pop1-449-target1-1" tabindex="12" style="left: 1px; top: 15px; width: 862px; height: 433px;" title="정답 설명입니다. 우리나라 땅의 모양이 그려진 그림이 지도입니다."></div>
+		</div>
+	</div>
 </div>
 
-
 <div class="popup_view" title="팝업 영역" data-popup-name="popup_2">
-    <div class="popup_box" data-type="write" data-option="input">
+    <div class="popup_box" data-type="button-click">
         <div class="popup_header">
             <div class="popup_title">지도를 보고 목적지에 찾아가 봅시다.</div>
             <button class="popup_close_btn"></button>
         </div>
         <div class="popup_content">
-            <img src="./08_01_01/31/write_bg.png" tabindex="6" alt="손을 깨끗하게 씻는 모습"/>
+            <img src="./08_02_01/449/click_bg3.png" tabindex="6" alt="집의 다양한 방이 보이는 사진입니다. 집에는 부엌, 현관, 화장실 등이 있습니다."/>
 
-            <div class="acc-box" style="left:30px; top:516px; width:805px; height: 130px;" tabindex="11" title="빈칸을 깨끗하게 씻으면 많은 질병을 예방할 수 있습니다."></div>
+            <div class="popup_content_box">
+				<button data-btn="event-btn" class="click-obj click-obj-img" tabindex="11" data-target="pop2-449-target-1" style="left: 336px; top: 130px;" title="학교에 가자"></button>
+				<button data-btn="event-btn" class="click-obj click-obj-img" tabindex="13" data-target="pop2-449-target-2" style="left: 717px; top: 130px;" title="마트에 가자
+                "></button>
+			
 
-            <div class="input-area-box">
-                <label for="p31-1-area">빈 칸에 들어갈 말을 키보드로 써 보세요.</label>
-                <input id="p31-1-area" class="input-area center" title="빈 칸에 들어갈 말을 키보드로 써 보세요." data-ans="손" style="left:62px; top:557px; width:75px;"></input>
-            </div>
-
-            <div id="pop2-31-target1" class="acc-box-hide" style="left:62px; top:557px; width:75px; height: 50px;" tabindex="20" title="손을 깨끗하게 씻으면 많은 질병을 예방할 수 있습니다."></div>
-
-            <div class="btn-box">
-                <button data-btn="event-btn" class="ans-check-btn" title="정답확인"></button>
-                <button data-btn="event-btn" class="ans-preveal-btn" title="정답미리보기" data-target="pop2-31-target1"></button>
-            </div>
+				<img src="./08_02_01/449/pop1_1.png" id="pop2-449-target-1" class="acc-box-hide" tabindex="12" style="left: 237px; top: 150px;" alt="학교에 가는 길은 문구점과 소방서 사이를 지나 경찰서 옆에 있습니다."/>
+				<img src="./08_02_01/449/pop1_2.png" id="pop2-449-target-2" class="acc-box-hide" tabindex="14" style="left: 495px; top: 150px;" alt="마트에 가는 길은 소방서와 약국 사이를 지나 아파트 옆에 있습니다."/>
+			</div>
         </div>
     </div>
 </div>
