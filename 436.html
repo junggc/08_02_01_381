@@ -10,23 +10,30 @@
 <button data-btn="page-btn" class="essence-btn" data-essence="popup_2" style="left:10px; top:693px;"></button>
 <!-- book popup -->
 <div class="popup_view" title="팝업 영역" data-popup-name="popup_1">
-    <div class="popup_box" data-type="button-click" data-option="ans">
-        <div class="popup_header">
-            <div class="popup_title">산지촌 지역 사람들의 생활 모습을 모두 찾아봅시다.</div>
-            <button class="popup_close_btn"></button>
-        </div>
+    <div class="popup_box" data-type="button-click" data-option="ans-multiple">
+		<div class="popup_header">
+			<div class="popup_title">산지촌 지역 사람들의 생활 모습을 모두 찾아봅시다.</div>
+			<button class="popup_close_btn"></button>
+		</div>
 
-        <div class="popup_content">
-            <img src="./08_02_01/396/click_bg1.png"/>
+		<div class="popup_content">
+			<img src="./08_02_01/436/click_bg.png"/>
 
-            <div class="click-active-obj-box absolute" data-ans="a">
-                <button data-btn="event-btn" style="left: 177px; top: 567px; width:114px; height:108px;" class="click-obj click-active-obj chk-box2" title="‘나는 일주일에 한 번씩 화분에 물을 줘.’라고 말하며 화분에 물을 주는 상기 모습의 선택창" data-ans="a" ></button>
-                <button data-btn="event-btn" style="left: 579px; top: 566px; width:114px; height:108px;" class="click-obj click-active-obj chk-box2" title="‘나는 예쁜 꽃이 있으면 무조건 꺾어.’라고 말하며 길에 핀 꽃을 꺾는 해린이 모습의 선택창" data-ans="b" data-target="pop1-388-target1-1"></button>
-            </div>
+			<div class="click-active-obj-box absolute">
+				<button data-btn="event-btn" style="left: 207px; top: 273px; width:114px; height:108px;" class="click-obj click-active-obj chk-box" data-ans="yes" title="양을 기릅니다. 선택창"></button>
+				<button data-btn="event-btn" style="left: 555px; top: 273px; width:114px; height:108px;" class="click-obj click-active-obj chk-box" data-ans="no" title="파도를 탑니다. 선택창"></button>
+                <button data-btn="event-btn" style="left: 207px; top: 642px; width:114px; height:108px;" class="click-obj click-active-obj chk-box" data-ans="yes" title="버섯을 재배합니다. 선택창"></button>
+                <button data-btn="event-btn" style="left: 555px; top: 642px; width:114px; height:108px;" class="click-obj click-active-obj chk-box" data-ans="no" title="택배를 배달합니다. 선택창"></button>
+			</div>
 
-            <div class="acc-box-hide" id="pop1-385-target1-1" tabindex="1012" style="left: 1px; top: 15px; width: 862px; height: 433px;" title="정답 설명입니다. 일주일에 한 번씩 화분에 물을 주는 상기의 모습은 사랑하는 마음으로 식물을 해하는 모습입니다."></div>
-        </div>
-    </div>
+			<div class="btn-box" style="margin:0 0 30px;">
+				<button data-btn="event-btn" class="ans-check-btn" title="정답확인" data-target="pop1-436-target1-1"></button>
+			</div>
+
+			<div class="acc-box-hide" id="pop1-436-target1-1" tabindex="1012" style="left: 32px; top: 14px; width: 803px; height: 452px;" title="정답 설명입니다. 산지촌 지역 사람들의 생활 모습은 양을 기르고 버섯을 재배하는 모습입니다."></div>
+
+		</div>
+	</div>
 </div>
 
 <!-- book popup -->
@@ -40,25 +47,25 @@
             <div class="quiz_example_box">
                 <div class="quiz_example-title">보기</div>
                 <div class="quiz_example-obj">
-                    <button data-btn="event-btn" data-num="1" class="drag-obj" title="첫 번째 보기. 쌀">
-                        <img src="./08_02_01/432/drag_obj1.png" alt="첫 번째 보기. 쌀">
+                    <button data-btn="event-btn" data-num="1" class="drag-obj" title="첫 번째 보기. 버섯">
+                        <img src="./08_02_01/436/drag_obj1.png" alt="첫 번째 보기. 버섯">
                     </button>
-                    <button data-btn="event-btn" data-num="2" class="drag-obj" title="두 번째 보기. 고추">
-                        <img src="./08_02_01/432/drag_obj2.png" alt="두 번째 보기. 고추">
+                    <button data-btn="event-btn" data-num="2" class="drag-obj" title="두 번째 보기. 전자기기">
+                        <img src="./08_02_01/436/drag_obj2.png" alt="두 번째 보기. 전자기기">
                     </button>
-                    <button data-btn="event-btn" data-num="3" class="drag-obj" title="세 번째 보기. 조개">
-                        <img src="./08_02_01/432/drag_obj3.png" alt="세 번째 보기. 조개">
+                    <button data-btn="event-btn" data-num="3" class="drag-obj" title="세 번째 보기. 고사리">
+                        <img src="./08_02_01/436/drag_obj3.png" alt="세 번째 보기. 고사리">
                     </button>
                 </div>
             </div>
-            <img src="./08_02_01/432/click_bg2.png" alt=""/>
+            <img src="./08_02_01/436/drag_bg.png" alt=""/>
 
             <div class="drop-active-box">
-                <button data-btn="event-btn" data-ans="1" class="drop-obj" style="left: 200px; top: 481px;" title="농촌 지역에서 생산하는 것이 옮겨질 첫 번째 빈칸">
-                    <img src="./08_02_01/432/drop_obj1.png" alt="농촌 지역에서 생산하는 것이 옮겨질 첫 번째 빈칸">
+                <button data-btn="event-btn" data-ans="1" class="drop-obj" style="left: 200px; top: 481px;" title="산지촌 지역에서 생산하는 것이 옮겨질 첫 번째 빈칸">
+                    <img src="./08_02_01/436/drop_obj1.png" alt="산지촌 지역에서 생산하는 것이 옮겨질 첫 번째 빈칸">
                 </button>
-                <button data-btn="event-btn" data-ans="2" class="drop-obj" style="left: 450px; top: 481px;" title="농촌 지역에서 생산하는 것이 옮겨질 두 번째 빈칸">
-                    <img src="./08_02_01/432/drop_obj2.png" alt="농촌 지역에서 생산하는 것이 옮겨질 두 번째 빈칸">
+                <button data-btn="event-btn" data-ans="3" class="drop-obj" style="left: 450px; top: 481px;" title="산지촌 지역에서 생산하는 것이 옮겨질 두 번째 빈칸">
+                    <img src="./08_02_01/436/drop_obj2.png" alt="산지촌 지역에서 생산하는 것이 옮겨질 두 번째 빈칸">
                 </button>
             </div>
         </div>
