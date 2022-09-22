@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8452d177-1824-4b2f-80c3-6567620cd2c2" name="Changes" comment="422 완료">
+    <list default="true" id="8452d177-1824-4b2f-80c3-6567620cd2c2" name="Changes" comment="423 완료">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/423.html" beforeDir="false" afterPath="$PROJECT_DIR$/423.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/424.html" beforeDir="false" afterPath="$PROJECT_DIR$/424.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,7 @@
       <workItem from="1663314546337" duration="1438000" />
       <workItem from="1663316010129" duration="1878000" />
       <workItem from="1663563747699" duration="34143000" />
+      <workItem from="1663805935028" duration="3366000" />
     </task>
     <task id="LOCAL-00001" summary="p417_1.mp3 파일 추가">
       <created>1663317482958</created>
@@ -125,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663735942616</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="423 완료">
+      <created>1663774819390</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663774819390</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +160,7 @@
     <MESSAGE value="445 할차례" />
     <MESSAGE value="재 수정" />
     <MESSAGE value="422 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="422 완료" />
+    <MESSAGE value="423 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="423 완료" />
   </component>
 </project>
