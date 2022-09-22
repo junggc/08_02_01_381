@@ -19,44 +19,96 @@
 
 <!-- book popup -->
 <div class="popup_view" title="팝업 영역" data-popup-name="popup_1">
-    <div class="popup_box" data-type="button-click" data-option="ans">
+    <div class="popup_box" data-type="button-click">
         <div class="popup_header">
             <div class="popup_title">어촌 지역의 모습을 알아봅시다.</div>
             <button class="popup_close_btn"></button>
         </div>
-
         <div class="popup_content">
-            <img src="./08_02_01/422/click_bg1.png" alt=""/>
+            <img src="./08_02_01/433/click_bg1.png"/>
 
-            <div class="click-active-obj-box absolute" data-ans="a">
-                <button data-btn="event-btn" style="left: 110px; top: 715px; width:114px; height:108px;" class="click-obj click-active-obj chk-box2" title="평야는 초록색 산은 노란색 바다는 파란색 방위표가 있는 그림의 선택창" data-ans="a"></button>
-                <button data-btn="event-btn" style="left: 385px; top: 715px; width:114px; height:108px;" class="click-obj click-active-obj chk-box2" title="그래프 선택창" data-ans="b" data-target="pop1-4-target1-1"></button>
-                <button data-btn="event-btn" style="left: 655px; top: 715px; width:114px; height:108px;" class="click-obj click-active-obj chk-box2" title="주간 날씨 선택창" data-ans="c" data-target="pop1-4-target1-1"></button>
-            </div>
+            <div class="popup_content_box">
+				<button data-btn="event-btn" class="click-obj click-obj-img" tabindex="11" data-target="pop1-433-target-1" style="left: 429px; top: 445px;" title="우리나라 지도의 평야"></button>
+				<button data-btn="event-btn" class="click-obj click-obj-img" tabindex="13" data-target="pop1-433-target-2" style="left: 540px; top: 386px;" title="우리나라 지도의 산"></button>
+                <button data-btn="event-btn" class="click-obj click-obj-img" tabindex="15" data-target="pop1-433-target-3" style="left: 446px; top: 650px;" title="우리나라 지도의 바다"></button>
+			
 
-            <div class="acc-box-hide" id="pop1-4-target1-1" tabindex="1012" style="left: 35px; top: 20px; width: 802px; height: 297px;" title="정답 설명입니다. 평야는 초록색 산은 노란색 바다는 파란색 방위표가 있는 그림이 지도입니다."></div>
+				<img src="./08_02_01/433/pop_1_1.png" id="pop1-433-target-1" class="acc-box-hide" tabindex="12" style="left: 107px; top: 254px;" alt="밭이 있는 농촌의 모습"/>
+				<img src="./08_02_01/433/pop_1_2.png" id="pop1-433-target-2" class="acc-box-hide" tabindex="14" style="left: 495px; top: 150px;" alt="목장과 숲이 있는 산지촌의 모습"/>
+                <img src="./08_02_01/433/pop_1_3.png" id="pop1-433-target-3" class="acc-box-hide" tabindex="16" style="left: 495px; top: 546px;" alt="바다가 있는 어촌의 모습"/>
+			</div>
         </div>
     </div>
 </div>
 
 <!-- book popup -->
 <div class="popup_view" title="팝업 영역" data-popup-name="popup_2">
-    <div class="popup_box" data-type="button-click" data-option="ans">
+    <div class="popup_box" data-type="button-click" data-option="hideAndShow">
         <div class="popup_header">
             <div class="popup_title">어촌 지역의 모습을 알아봅시다.</div>
             <button class="popup_close_btn"></button>
         </div>
-
         <div class="popup_content">
-            <img src="./08_02_01/422/click_bg1.png" alt=""/>
+            <img src="./08_02_01/433/click_bg2.png"/>
+            <div class="acc-box" tabindex="6" style="left: 52px; top: 34px; width: 364px; height: 357px;" title="바다의 모습"></div>
+            <div class="acc-box" tabindex="7" style="left: 459px; top: 34px; width: 364px; height: 357px;" title="갯벌의 모습"></div>
 
-            <div class="click-active-obj-box absolute" data-ans="a">
-                <button data-btn="event-btn" style="left: 110px; top: 715px; width:114px; height:108px;" class="click-obj click-active-obj chk-box2" title="평야는 초록색 산은 노란색 바다는 파란색 방위표가 있는 그림의 선택창" data-ans="a"></button>
-                <button data-btn="event-btn" style="left: 385px; top: 715px; width:114px; height:108px;" class="click-obj click-active-obj chk-box2" title="그래프 선택창" data-ans="b" data-target="pop1-4-target1-1"></button>
-                <button data-btn="event-btn" style="left: 655px; top: 715px; width:114px; height:108px;" class="click-obj click-active-obj chk-box2" title="주간 날씨 선택창" data-ans="c" data-target="pop1-4-target1-1"></button>
+            <div class="popup_content_box">
+				<div id="pop2-433-target-hide-1" class="acc-box" style="left: 52px; top: 455px; width: 767px; height: 140px; background:url(./08_02_01/433/click_obj.png)">
+					<button data-btn="event-btn" class="click-obj click-obj-img" style="width: 767px; height: 140px;" tabindex="12" data-target="pop2-433-target-1" data-hide-target="pop2-433-target-hide-1" title="어촌 지역의 모습 빈칸"></button>
+				</div>
+				<div id="pop2-433-target-1" class="click-target-img" tabindex="13" title="어촌에는 바다와 갯벌 등이 있습니다." style="left: 52px; top: 450px; width: 767px; height: 140px;"></div>
             </div>
+        </div>
+        <div class="prev_next_paging_ui_box"><button data-btn="event-btn" class="prev_paging_btn"></button>
+            <div class="cur_txt_box"><span class="cur_num"></span>/<span class="max_num"></span></div><button
+                data-btn="event-btn" class="next_paging_btn"></button>
+        </div>
+    </div>
 
-            <div class="acc-box-hide" id="pop1-4-target1-2" tabindex="1012" style="left: 35px; top: 20px; width: 802px; height: 297px;" title="정답 설명입니다. 평야는 초록색 산은 노란색 바다는 파란색 방위표가 있는 그림이 지도입니다."></div>
+    <div class="popup_box" data-type="button-click" data-option="hideAndShow">
+        <div class="popup_header">
+            <div class="popup_title">산지촌 지역의 모습을 알아봅시다.</div>
+            <button class="popup_close_btn"></button>
+        </div>
+        <div class="popup_content">
+            <img src="./08_02_01/433/click_bg3.png"/>
+            <div class="acc-box" tabindex="6" style="left: 52px; top: 34px; width: 364px; height: 357px;" title="고기잡이를 하는 모습"></div>
+            <div class="acc-box" tabindex="7" style="left: 459px; top: 34px; width: 364px; height: 357px;" title="조개를 채집하는 모습"></div>
+
+            <div class="popup_content_box">
+				<div id="pop2-433-target-hide-2" class="acc-box" style="left: 52px; top: 455px; width: 767px; height: 140px; background:url(./08_02_01/433/click_obj.png)">
+					<button data-btn="event-btn" class="click-obj click-obj-img" style="width: 767px; height: 140px;" tabindex="12" data-target="pop2-433-target-2" data-hide-target="pop2-433-target-hide-2" title="어촌 지역의 모습 빈칸"></button>
+				</div>
+				<div id="pop2-433-target-2" class="click-target-img" tabindex="13" title="바다에서 다양한 물고기를 잡고, 갯벌에서는 조개와 해산물을 캡니다." style="left: 52px; top: 450px; width: 767px; height: 140px;"></div>
+            </div>
+        </div>
+        <div class="prev_next_paging_ui_box"><button data-btn="event-btn" class="prev_paging_btn"></button>
+            <div class="cur_txt_box"><span class="cur_num"></span>/<span class="max_num"></span></div><button
+                data-btn="event-btn" class="next_paging_btn"></button>
+        </div>
+    </div>
+
+    <div class="popup_box" data-type="button-click" data-option="hideAndShow">
+        <div class="popup_header">
+            <div class="popup_title">어촌 지역의 모습을 알아봅시다.</div>
+            <button class="popup_close_btn"></button>
+        </div>
+        <div class="popup_content">
+            <img src="./08_02_01/433/click_bg4.png"/>
+            <div class="acc-box" tabindex="6" style="left: 52px; top: 34px; width: 364px; height: 357px;" title="생선"></div>
+            <div class="acc-box" tabindex="7" style="left: 459px; top: 34px; width: 364px; height: 357px;" title="조개"></div>
+
+            <div class="popup_content_box">
+				<div id="pop2-433-target-hide-3" class="acc-box" style="left: 52px; top: 455px; width: 767px; height: 140px; background:url(./08_02_01/433/click_obj.png)">
+					<button data-btn="event-btn" class="click-obj click-obj-img" style="width: 767px; height: 140px;" tabindex="12" data-target="pop2-433-target-3" data-hide-target="pop2-433-target-hide-3" title="어촌 지역의 모습 빈칸"></button>
+				</div>
+				<div id="pop2-433-target-3" class="click-target-img" tabindex="13" title="고기잡이를 통해 생선을 제공하고 갯벌 채집을 통해 조개를 생산하여 우리에게 제공합니다." style="left: 52px; top: 450px; width: 767px; height: 140px;"></div>
+            </div>
+        </div>
+        <div class="prev_next_paging_ui_box"><button data-btn="event-btn" class="prev_paging_btn"></button>
+            <div class="cur_txt_box"><span class="cur_num"></span>/<span class="max_num"></span></div><button
+                data-btn="event-btn" class="next_paging_btn"></button>
         </div>
     </div>
 </div>
