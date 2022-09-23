@@ -1,62 +1,68 @@
-<!-- frame animation -->
-<div class="frame_animation_box" data-loop="" data-max="1" data-file=".png">
-    <div class="frame_animation_canvas"></div>
-    <div class="frame_animation_overlay"></div>
-</div>
-
 <!-- book txt -->
 <p class="s_reader-num" title="사백 삼십">430</p>
 <p class="s_reader-txt unit-right-top-num" title="십이 단원">12단원</p>
 <p class="s_reader-txt book-top-sub-txt-2">핵심활동</p>
 <p class="s_reader-txt book-top-main-txt-2">우리나라 이곳저곳</p>
 <p class="s_reader-txt book-txt" style="top:193px;">친구들의 시골 모습을 찾아봅시다.</p>
-<button data-btn="page-btn" class="drag-drop-btn" title="옮기기 활동 버튼입니다. 농촌, 산지촌, 도시, 어촌 사진이 있어요. 친구들의 시골을 확인하고 알맞은 모습을 찾아 옮겨 보세요. 버튼을 눌러 활동을 시작하세요." data-popup-target="popup_1" style="left:521px; top:184px;"></button>
+<button data-btn="page-btn" class="drag-drop-btn"
+    title="옮기기 활동 버튼입니다. 농촌, 산지촌, 도시, 어촌 사진이 있어요. 친구들의 시골을 확인하고 알맞은 모습을 찾아 옮겨 보세요. 버튼을 눌러 활동을 시작하세요."
+    data-popup-target="popup_1" style="left:521px; top:184px;"></button>
 <button data-btn="page-btn" class="essence-btn" data-essence="popup_1" style="left:10px; top:195px;"></button>
 
-<!--<p class="s_reader-txt book-txt" style="top:690px;">지도에서 동서남북을 선택해 봅시다.</p>-->
-<!--<button data-btn="page-btn" class="click-ans-btn" title="선택하기 활동 버튼입니다. 한반도 지도가 있어요. 지도에서 동서남북에 있는 지형을 찾아 선택해 보세요. 버튼을 눌러 활동을 시작하세요." data-popup-target="popup_2" style="left:550px; top:683px;"></button>-->
-<!--<button data-btn="page-btn" class="essence-btn" data-essence="popup_2" style="left:10px; top:695px;"></button>-->
 
 <!-- book popup -->
 <div class="popup_view" title="팝업 영역" data-popup-name="popup_1">
-    <div class="popup_box" data-type="button-click" data-option="ans">
+    <div class="popup_box" data-type="dragAndDrop" data-option="ansOn-drop-new-img">
         <div class="popup_header">
             <div class="popup_title">친구들의 시골 모습을 찾아봅시다.</div>
             <button class="popup_close_btn"></button>
         </div>
-
         <div class="popup_content">
-            <img src="./08_02_01/422/click_bg1.png" alt=""/>
-
-            <div class="click-active-obj-box absolute" data-ans="a">
-                <button data-btn="event-btn" style="left: 110px; top: 715px; width:114px; height:108px;" class="click-obj click-active-obj chk-box2" title="평야는 초록색 산은 노란색 바다는 파란색 방위표가 있는 그림의 선택창" data-ans="a"></button>
-                <button data-btn="event-btn" style="left: 385px; top: 715px; width:114px; height:108px;" class="click-obj click-active-obj chk-box2" title="그래프 선택창" data-ans="b" data-target="pop1-4-target1-1"></button>
-                <button data-btn="event-btn" style="left: 655px; top: 715px; width:114px; height:108px;" class="click-obj click-active-obj chk-box2" title="주간 날씨 선택창" data-ans="c" data-target="pop1-4-target1-1"></button>
+            <div class="quiz_example_box">
+                <div class="quiz_example-title">보기</div>
+                <div class="quiz_example-obj">
+                    <button data-btn="event-btn" data-num="1" class="drag-obj" title="첫 번째 보기. 농촌">
+                        <img src="./08_02_01/430/drag_obj1.png" alt="첫 번째 보기. 농촌">
+                    </button>
+                    <button data-btn="event-btn" data-num="2" class="drag-obj" title="두 번째 보기. 산지촌">
+                        <img src="./08_02_01/430/drag_obj2.png" alt="두 번째 보기. 산지촌">
+                    </button>
+                    <div style="margin-top:20px">
+                        <button data-btn="event-btn" data-num="3" class="drag-obj"
+                            title="세 번째 보기. 도시">
+                            <img src="./08_02_01/430/drag_obj3.png" alt="세 번째 보기. 도시">
+                        </button>
+                        <button data-btn="event-btn" data-num="4" class="drag-obj"
+                            title="세 번째 보기. 어촌">
+                            <img src="./08_02_01/430/drag_obj4.png" alt="세 번째 보기. 어촌">
+                        </button>
+                    </div>
+                </div>
             </div>
 
-            <div class="acc-box-hide" id="pop1-4-target1-1" tabindex="1012" style="left: 35px; top: 20px; width: 802px; height: 297px;" title="정답 설명입니다. 평야는 초록색 산은 노란색 바다는 파란색 방위표가 있는 그림이 지도입니다."></div>
+            <img src="./08_02_01/430/drag_bg.png" />
+            <div class="acc-box" tabindex="1006" style="left: 79px; top: 423px; width: 223px; height: 150px;"
+                title="해린 : 우리 시골은 논과 밭이 펼쳐진 곳이야."></div>
+            <div class="acc-box" tabindex="1007" style="left: 377px; top: 423px; width: 223px; height: 150px;"
+                title="정우 : 우리 시골은 바다와 갯벌이 있는 곳이야.">
+            </div>
+            <div class="acc-box" tabindex="1008" style="left: 626px;top: 423px; width: 223px; height: 150px;"
+                title="정우 : 우리 시골은 바다와 갯벌이 있는 곳이야."></div>
+
+            <div class="drop-active-box">
+                <button data-btn="event-btn" data-ans="1" class="drop-obj"
+                    style="left: 73px; top: 700px; width: 194px; height: 116px" title="해린이의 시골이 옮겨질 빈칸">
+                    <img src="./08_02_01/430/drop_obj1.png" alt="해린이의 시골이 옮겨질 빈칸">
+                </button>
+                <button data-btn="event-btn" data-ans="4" class="drop-obj"
+                    style="left: 339px; top: 700px; width: 194px; height: 116px" title="정우의 시골이 옮겨질 빈칸">
+                    <img src="./08_02_01/430/drop_obj1.png" alt="정우의 시골이 옮겨질 빈칸">
+                </button>
+                <button data-btn="event-btn" data-ans="2" class="drop-obj"
+                    style="left: 600px; top: 700px; width: 194px; height: 116px" title="상기의 시골이 옮겨질 빈칸">
+                    <img src="./08_02_01/430/drop_obj1.png" alt="상기의 시골이 옮겨질 빈칸">
+                </button>
+            </div>
         </div>
     </div>
 </div>
-
-<!-- book popup -->
-<!--<div class="popup_view" title="팝업 영역" data-popup-name="popup_2">-->
-<!--    <div class="popup_box" data-type="button-click" data-option="ans">-->
-<!--        <div class="popup_header">-->
-<!--            <div class="popup_title">지도를 찾아봅시다.</div>-->
-<!--            <button class="popup_close_btn"></button>-->
-<!--        </div>-->
-
-<!--        <div class="popup_content">-->
-<!--            <img src="./08_02_01/422/click_bg1.png" alt=""/>-->
-
-<!--            <div class="click-active-obj-box absolute" data-ans="a">-->
-<!--                <button data-btn="event-btn" style="left: 110px; top: 715px; width:114px; height:108px;" class="click-obj click-active-obj chk-box2" title="평야는 초록색 산은 노란색 바다는 파란색 방위표가 있는 그림의 선택창" data-ans="a"></button>-->
-<!--                <button data-btn="event-btn" style="left: 385px; top: 715px; width:114px; height:108px;" class="click-obj click-active-obj chk-box2" title="그래프 선택창" data-ans="b" data-target="pop1-4-target1-1"></button>-->
-<!--                <button data-btn="event-btn" style="left: 655px; top: 715px; width:114px; height:108px;" class="click-obj click-active-obj chk-box2" title="주간 날씨 선택창" data-ans="c" data-target="pop1-4-target1-1"></button>-->
-<!--            </div>-->
-
-<!--            <div class="acc-box-hide" id="pop1-4-target1-2" tabindex="1012" style="left: 35px; top: 20px; width: 802px; height: 297px;" title="정답 설명입니다. 평야는 초록색 산은 노란색 바다는 파란색 방위표가 있는 그림이 지도입니다."></div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
